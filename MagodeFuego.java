@@ -9,6 +9,14 @@ package tarea6_s2;
  *
  * @author alx-pc
  */
-public class MagodeFuego {
+public class MagodeFuego extends Mago{
+    
+    
+    public MagodeFuego() {
+    }
+    
+    public MagodeFuego(String color, int poder){
+        super(poder, color);
+    }
     
 }
