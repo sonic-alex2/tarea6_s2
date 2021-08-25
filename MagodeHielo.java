@@ -10,8 +10,10 @@ public class MagodeHielo extends Mago{
     public MagodeHielo() {
     }
 
-    public MagodeHielo(int vida) {
+    public MagodeHielo(int poder, String color, int vida) {
+        super (poder, color);
         this.vida = vida;
+         
     }
     
     public void aumentodePoder(){
