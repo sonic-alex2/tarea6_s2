@@ -19,10 +19,16 @@ public class Principal {
         MagodeFuego objetoMago;
         objetoMago = new MagodeFuego("rojo", 99, 99);
         
+        MagodeHielo objetoMago2;
+        objetoMago2 = new MagodeHielo(99,"Azul",99);
+        
         System.out.println("Color del mago: "+ objetoMago.getColor()+"\n"
                 + "Poder del mago: "+objetoMago.getPoder()+"\n"
                         + "Vida del mago: "+objetoMago.getVida());
         
+        System.out.println("Color del mago: "+ objetoMago2.getColor()+"\n"
+                + "Poder del mago: "+objetoMago2.getPoder()+"\n"
+                        + "Vida del mago: "+objetoMago2.getVida());
     }
     
 }
