@@ -16,6 +16,13 @@ public class Principal {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        MagodeFuego objetoMago;
+        objetoMago = new MagodeFuego("rojo", 99, 99);
+        
+        System.out.println("Color del mago: "+ objetoMago.getColor()+"\n"
+                + "Poder del mago: "+objetoMago.getPoder()+"\n"
+                        + "Vida del mago: "+objetoMago.getVida());
+        
     }
     
 }
